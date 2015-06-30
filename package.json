@@ -11,6 +11,9 @@
     "type" : "git",
     "url" : "http://github.com/stringtree/stringtree-migrate-driver-testsuite.git"
   },
+  "publishConfig": {
+    "registry":"http://registry.npmjs.org/"
+  },
   "author" : { 
     "name" : "Frank Carver",
     "email" : "frank@efsol.com",
