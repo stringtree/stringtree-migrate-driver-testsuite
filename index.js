@@ -47,7 +47,7 @@ module.exports = function(driver, dname, setup) {
             t.error(err, 'update should not error');
             driver.current(function(err, level) {
               t.error(err, 'current should not error');
-              t.equal(level, 2, "curret should report new level");
+              t.equal(level, 2, "current should report new level");
             });
           });
         });
